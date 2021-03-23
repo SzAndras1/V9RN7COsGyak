@@ -21,6 +21,7 @@ int main(void){
 		return -1;
 	}mert mindig annyi karakter vesz fel, amennyi előre van definiálva a string méreténél, ezért ez felesleges.
 	*/
+	
 	content[sizeOfTxt] = '\0';
 	printf("txt content: \"%s\"\nbyteok szama: %d\n", content, sizeOfTxt);
 
