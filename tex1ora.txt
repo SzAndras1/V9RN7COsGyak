@@ -1,5 +1,3 @@
-{\fiverm Helló világ!}
-{\it Helló világ! \/}
 Hello world
 hello~world hello~world hello~world 
 hello~world hello~world hello~world 
@@ -60,4 +58,89 @@ $$2 \cdot \!\!\! \biggl(\sum_{i=1}^{n}  a_i\biggr)$$
 $$	A = \pmatrix{a & b & c \cr d & e & f \cr g & h & i \cr}  \qquad B = \pmatrix{a & b & c \cr d & e & f \cr g & h & i \cr} \eqno (1) $$
 
 $$	|A| = \left|\matrix{a & b & c \cr d & e & f \cr g & h & i \cr}\right| \leqno (2) $$
+
+$$\left\{ \bigcup_{n \geq 1} A_n \right.$$ 
+
+$$\Biggl\{ \bigcup_{n \geq 1} A_n \bigr)$$ 
+
+$$|x| = \cases{ x, & ha $x \geq 0$ \cr - x, & ha $x<0$ \cr}$$
+\def\sgn{\mathop {\rm sgn}}
+$${\rm sgn}$$
+$$\sgn$$
+
+$$\sgn(x) = \cases{ 1, & ha $x \geq 0$ \cr 0, & ha $x=0$ \cr -1, & ha $x>0$}$$
+$$\sgn_n$$
+$$\cup_n$$
+\def\kisunio{\mathop \cup}
+$$\kisunio_n$$
+$$a \over b$$
+$$n \atop k$$
+$$n \atopwithdelims () k$$
+$$ {a+b} \over2$$
+$$ a + {b\over2}$$
+%\rm roman (alapértelmezett)
+
+Ez itt norm\'al sz\"oveg. {\it Ez italic.
+\tt \'\i r\'og\'ep}. Ez megint norm\'al
+
+\font\boldit = cmbxti10
+{\boldit f\'elk\"ov\'er d\H olt}
+
+\noindent bekezd\'es\par m\'asik
+
+The state of being concealed.
+We and our partners store and/or access information on a device, such as unique IDs in cookies to process personal data. 
+
+\indent\indent You may accept or manage your choices by clicking below, including your right to object where legitimate interest is used, or at any time in the privacy policy page. These choices will be signaled to our partners and will not affect browsing data.
+
+\narrower\narrower {\it We and our partners process data to provide:
+Use precise geolocation data. Actively scan device characteristics for identification. Store and/or access information on a device. Personalised ads and content, ad and content measurement, audience insights and product development.}
+\leftskip=0pt
+\rightskip=0pt
+\item * Miusov, as a man man of breeding and deilcacy, could not but feel some inwrd qualms, when he reached the Father Superior's with Ivan: he felt ashamed of havin lost his temper. He felt that he ought to have disdaimed that despicable wretch, Fyodor Pavlovitch, too much to have 
+
+\itemitem + He determined to drop his litigation with the monastry, and relinguish his claims to the wood-cuting and fishery rihgts at once. He was the more ready to do this becuase the rights had becom much less valuable, and he had indeed the vaguest idea where the wood and river in quedtion were.
+
+\leftskip = 0pt
+\parindent = 0pt
+\hangindent=3em He told the caochman to wait, while with rapid steps he returnd to the monastery and staight to the Father Superior's. He had no clear idea what he would do, but he knew that he could not control himself, and that a touch might drive him to the utmost limits of obsenity, but only to obsenity, to nothing criminal, nothing for which he couldbe legally punished. In the last resort, he could always restrain himself, and had marvelled indeed at himself, on that score, sometimes. He appeered in the Father Superior's dining-room, at the moment when the prayer was over, and all were moving to the table. Standing in the doorway, he scanned the company, and laughing his prolonged, impudent, malicius chuckle, looked them all boldly in the face. "They thought I had gone, and here I am again," he cried to the wholle room.
+
+\hangindent = 3em
+\hangafter = 2
+He told the caochman to wait, while with rapid steps he returnd to the monastery and staight to the Father Superior's. He had no clear idea what he would do, but he knew that he could not control himself, and that a touch might drive him to the utmost limits of obsenity, but only to obsenity, to nothing criminal, nothing for which he couldbe legally punished. In the last resort, he could always restrain himself, and had marvelled indeed at himself, on that score, sometimes. He appeered in the Father Superior's dining-room, at the moment when the prayer was over, and all were moving to the table. Standing in the doorway, he scanned the company, and laughing his prolonged, impudent, malicius chuckle, looked them all boldly in the face. "They thought I had gone, and here I am again," he cried to the wholle room.
+
+\hangindent = 3em
+\hangafter = -2
+It was at this moment that Fyodor Pavlovitch played his last prank. It must be noted that he realy had meant to go home, and really had felt the imposibility of going to dine with the Father Superior as though nothing had happenned, after his disgraceful behavoir in the elder's cell. Not that he was so very much ashamed of himself -- quite the contrary perhaps. But still he felt it would be unseemly to go to dinner. Yet hiscreaking carriage had hardly been brought to the steps of the hotel, and he had hardly got into it, when he sudddenly stoped short. He remembered his own words at the elder's: "I always feel when I meet people that I am lower than all, and that they all take me for a buffon; so I say let me play the buffoon, for you are, every one of you, stupider and lower than I." He longed to revenge himself on everone for his own unseemliness. He suddenly recalled how he had once in the past been asked, "Why do you hate so and so, so much?" And he had answered them, with his shaemless impudence, "I'll tell you. He has done me no harm. But I played him a dirty trick, and ever since I have hated him."
+
+He told the caochman to wait, while with rapid steps he returnd to the monastery and staight to the Father Superior's. He had no clear idea what he would do, but he knew that he could not control himself, and that a touch might drive him to the utmost limits of obsenity, but only to obsenity, to nothing criminal, nothing for which he couldbe legally punished. In the last resort, he could always restrain himself, and had marvelled indeed at himself, on that score, sometimes. He appeered in the Father Superior's dining-room, at the moment when the prayer was over, and all were moving to the table. Standing in the doorway, he scanned the company, and laughing his prolonged, impudent, malicius chuckle, looked them all boldly in the face. "They thought I had gone, and here I am again," he cried to the wholle room.
+\parindent = 3em
+\baselineskip = 2\baselineskip
+
+"Well, since I have begun, I may as well go on," he decided. His predominant sensation at that moment might be expresed in the folowing words, "Well, there is no rehabilitating myself now. So let me shame them for all I am worht. I will show them I don't care what they think -- that's all!"
+\baselineskip = .5\baselineskip
+
+He told the caochman to wait, while with rapid steps he returnd to the monastery and staight to the Father Superior's. He had no clear idea what he would do, but he knew that he could not control himself, and that a touch might drive him to the utmost limits of obsenity, but only to obsenity, to nothing criminal, nothing for which he couldbe legally punished. In the last resort, he could always restrain himself, and had marvelled indeed at himself, on that score, sometimes. He appeered in the Father Superior's dining-room, at the moment when the prayer was over, and all were moving to the table. Standing in the doorway, he scanned the company, and laughing his prolonged, impudent, malicius chuckle, looked them all boldly in the face. "They thought I had gone, and here I am again," he cried to the wholle room.
+
+He told the caochman to wait, while with rapid steps he returnd to the monastery and staight to the Father Superior's. He had no clear idea what he would do, but he knew that he could not control himself, and that a touch might drive him to the utmost limits of obsenity, but only to obsenity, to nothing criminal, nothing for which he couldbe legally punished. In the last resort, he could always restrain himself, and had marvelled indeed at himself, on that score, sometimes. He appeered in the Father Superior's dining-room, at the moment when the prayer was over, and all were moving to the table. Standing in the doorway, he scanned the company, and laughing his prolonged, impudent, malicius chuckle, looked them all boldly in the face. "They thought I had gone, and here I am again," he cried to the wholle room.
+
+\hbox to \hsize{\hfil k\"oz\'epre \hfil}
+\hrule
+\vbox to 3cm{\vfil fuggolegesen kopzepre \vfill}
+\hrule
+%\hss \vss ha box hibát ír (lekicsinyíti)
+%\smallskip
+\bigskip\bigskip
+\hrule
+\vbox to 2cm{
+\vfil
+\hbox to 5cm{\hfill fejlec 1 \hskip 1em \hfil fejlec 2 \hfill}
+\vskip .2cm
+\hrule
+\vskip .2cm
+\hbox to 5cm{\hfill szoveg 1 \hskip 1em \hfil szoveg 2 \hfill}
+\hbox to 5cm{\hfill szoveg 3 \hskip 1em \hfil szoveg 4 \hfill}
+\vfil
+}
+\hrule
 \bye
