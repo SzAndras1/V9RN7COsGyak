@@ -1,5 +1,3 @@
-TexWorks
-
 {\fiverm Helló világ!}
 {\it Helló világ! \/}
 Hello world
@@ -49,4 +47,17 @@ $\alpha, \beta, \gamma, \Gamma, \Omega$
 $A  =\{1, 2, \ldots, n\}, \cdots$
 
 $\overline{abc}, \overrightarrow{AB}$
+
+$n \to \infty$
+
+$$2*(\sum_{i=1}^{n}  a_i)$$
+
+$$2 \times \left(\sum_{i=1}^{n}  a_i\right)$$
+%\big, \Big, \bigg, \Bigg
+$$2 \cdot \!\!\! \biggl(\sum_{i=1}^{n}  a_i\biggr)$$
+%térközek: \,\>,\quad,\qquad
+%\! negatív térköz
+$$	A = \pmatrix{a & b & c \cr d & e & f \cr g & h & i \cr}  \qquad B = \pmatrix{a & b & c \cr d & e & f \cr g & h & i \cr} \eqno (1) $$
+
+$$	|A| = \left|\matrix{a & b & c \cr d & e & f \cr g & h & i \cr}\right| \leqno (2) $$
 \bye
