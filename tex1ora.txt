@@ -1,1 +1,52 @@
+TexWorks
 
+{\fiverm Helló világ!}
+{\it Helló világ! \/}
+Hello world
+hello~world hello~world hello~world 
+hello~world hello~world hello~world 
+\~{}
+\~w
+
+\^a
+
+\TeX\ nyelv
+\TeX~nyelv
+\TeX{ nyelv}
+Ez itt egy mondat. Ez itt egy másik. Ez
+a 3.\ mondat.
+
+Hello--world vs hello-world és az em-dash:
+---
+$-$
+
+hell\'o,  \"ov, h\H o, \c c
+"szo"
+'szo'
+`szo'
+``szo"
+ff, ffl ff; f{}f, f{}i
+$a+b=c$
+meg szoveg...
+$$ a+b=c \quad\hbox{szoveg...}$$
+folytatas...
+
+\hbox to \hsize{bal \hfill kozep \hfill 
+jobb}
+
+$log(x)$ $\log(x)$
+
+$\sum_{i=1}^{n}  a_i$
+%vagy ^n ha egytagú
+$$\sum_{i=1}^{n}  a_i$$
+
+$$\textstyle\sum_{i=1}^{n}  a_i$$
+
+$$\sum\nolimits_{i=1}^{n}  a_i$$
+
+$\alpha, \beta, \gamma, \Gamma, \Omega$
+
+$A  =\{1, 2, \ldots, n\}, \cdots$
+
+$\overline{abc}, \overrightarrow{AB}$
+\bye
