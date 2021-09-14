@@ -3,7 +3,9 @@
 \usepackage[magyar]{babel}
 \usepackage{t1enc}
 \usepackage{lipsum}
+\usepackage{setspace}
 \begin{document}
+\pagenumbering{Roman}
 %\author{Szabó András}
 %\title{\LaTeX\ 12 indok, hogy miért Damu Rolandnak kellett nyerni}
 %\date{\today}
@@ -33,8 +35,12 @@ Miskolc Egyetem
 
 \end{titlepage}
 
-\textit{Helló \textbf{világ!}}
+\begin{abstract}
+Ide jön a cikk leírása...
+\lipsum[1-2]
+\end{abstract}
 
+\textit{Helló \textbf{világ!}}
 \textsl{Helló világ}
 %%textnormal defaultba helyez, \normalsize
 
@@ -67,11 +73,20 @@ sortörés után
 \subsubsection{Első al-alszakasz}
 \lipsum[1-10]
 \subsection{Második alszakasz}
+\linespread{1.6}
 \paragraph{Első szakasz}
 \lipsum[11-13]
+\doublespacing
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. \footnote{It has survived not only five centuries}, but also the leap into electronic typesetting, \footnote{remaining essentially unchanged.} It was popularised in the 1960s with \marginpar{Ez egy szerzői komment.} the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
 \subparagraph{Első albekezdés}
 \lipsum[14]
+\appendix
+\section{Első appendix}
+\subsection{Valami}
+\section{Második appendix}
 \section*{Irodalomjegyzék}
 \addcontentsline{toc}{section}
 {Irodalomjegyzék}
+
 \end{document}
