@@ -1,0 +1,77 @@
+\documentclass[a4paper,12pt,draft]{article}
+%[titlepage]
+\usepackage[magyar]{babel}
+\usepackage{t1enc}
+\usepackage{lipsum}
+\begin{document}
+%\author{Szabó András}
+%\title{\LaTeX\ 12 indok, hogy miért Damu Rolandnak kellett nyerni}
+%\date{\today}
+
+%\maketitle
+
+\begin{titlepage}
+~\vfil
+\begin{center}
+\huge
+\MakeUppercase{Szakdolgozat}
+
+\vspace{4ex}
+\large Cím: A szegedi picsaember előfordulásának dokumentációja
+\end{center}
+\vspace{12ex}
+\large
+
+\parindent=67pt Szerző:\newline\indent Szabó András \newline\indent Társvezető: \newline\indent Mike Oxlong
+\vspace{45ex}
+\begin{center}
+\Large
+Miskolc Egyetem
+
+2021
+\end{center}
+
+\end{titlepage}
+
+\textit{Helló \textbf{világ!}}
+
+\textsl{Helló világ}
+%%textnormal defaultba helyez, \normalsize
+
+\emph{kiemelt szöveg
+\emph{belső kiemelt}}
+
+\textit{kiemelt szöveg
+\emph{belső kiemelt}}
+
+\begin{center}
+{\Large \centering ezek itt nagy betűk}
+\end{center}
+
+\begin{flushright}
+\small ezek pedig kis betűk
+\end{flushright}
+
+sortörés \hfill előtt\\[1ex]
+sortörés után
+%\\ egy sortörés
+\vspace{2ex} %%\hspace{...} \clearpage \cleardoublepage
+
+%\raggedleft
+\setcounter{secnumdepth}{5} %3 az alapértelmezett
+\setcounter{tocdepth}{5} %3 az alapértelmezett
+\tableofcontents
+
+\section{Első szakasz}
+\subsection{Első alszakasz}
+\subsubsection{Első al-alszakasz}
+\lipsum[1-10]
+\subsection{Második alszakasz}
+\paragraph{Első szakasz}
+\lipsum[11-13]
+\subparagraph{Első albekezdés}
+\lipsum[14]
+\section*{Irodalomjegyzék}
+\addcontentsline{toc}{section}
+{Irodalomjegyzék}
+\end{document}
