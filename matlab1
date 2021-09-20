@@ -1,0 +1,26 @@
+n=input('Mennyi elembol allnak a mátrixok?');
+
+for i=1:n
+    x(i)=input(sprintf('X #%d elem: ',i));
+    y(i)=input(sprintf('Y #%d elem: ',i));
+end
+s=0
+for i=1:n
+    s=s+x(i)*y(i);
+end
+s
+
+n=input('Mennyi sorbol allnak a matrixok?');
+m=input('Mennyi oszlopbol allnak a matrixok?');
+
+for i=1:n
+    for j=1:m
+        x(i)=input(sprintf('X #%d elem: ',i))
+        y(i)=input(sprintf('Y #%d elem: ',i))
+    end
+end
+s=0
+for i=1:n
+    s=s+x(i)*y(i)
+end
+s
