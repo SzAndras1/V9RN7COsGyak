@@ -1,12 +1,20 @@
-https://www.geeksforgeeks.org/bucket-sort-2/
-https://medium.com/karuna-sehgal/an-introduction-to-bucket-sort-62aa5325d124#:~:text=Bucket%20sort%20assumes%20that%20the%20input%20is%20drawn,an%20array%20where%20the%20index%20is%20the%20value.
-
 \documentclass[12pt]{article}%oneside twoside
 \usepackage{t1enc}
 \usepackage{lipsum}
 \usepackage[magyar]{babel}
 \usepackage[inline]{enumitem}
-    
+\usepackage{amsthm}
+
+\theoremstyle{plain}
+\newtheorem{tetel}{Tétel}[section]
+\theoremstyle{remark}
+\newtheorem{kov}[tetel]{Következmény}
+\theoremstyle{definition}
+\newtheorem{defin}{Definíció}
+
+\usepackage{listings}
+\lstset{language=C}
+
 \begin{document}
 \begin{itemize}
 \item A
@@ -65,4 +73,40 @@ Ez egy
 \end{itemize*}
 és írhatunk tovább vissza
 
+\begin{tetel}
+\label{tetel}
+Ez egy tétel Pitagorasz
+\end{tetel}
+\begin{proof}[Tétel bizonyítása]
+Itt a bizonyítás szövege.
+\end{proof}
+\begin{defin}[Pitagorasz definíciója]
+a2+b2=c2
+\end{defin}
+
+\begin{kov}
+Ez a \ref{tetel} tétel
+\end{kov}
+
+\begin{proof}
+Következmény biztosítása
+\end{proof}
+
+\lstinline|a=b|
+
+\begin{lstlisting}[firstline=3,tabsize=4, showtabs,showspaces,numbers=left,frame=TBlr]
+%%lastline linerange={1-2,4-5} stepnumber=3
+void()
+int a=10
+for(int i=0;i<array.size();i++)
+	a++;
+printf("%d",a);
+return 0;
+
+
+\end{lstlisting}
+\begin{lstlisting}[language=Python]
+for i:a
+ i++; lambda
+\end{lstlisting}
 \end{document}
