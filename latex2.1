@@ -1,0 +1,68 @@
+https://www.geeksforgeeks.org/bucket-sort-2/
+https://medium.com/karuna-sehgal/an-introduction-to-bucket-sort-62aa5325d124#:~:text=Bucket%20sort%20assumes%20that%20the%20input%20is%20drawn,an%20array%20where%20the%20index%20is%20the%20value.
+
+\documentclass[12pt]{article}%oneside twoside
+\usepackage{t1enc}
+\usepackage{lipsum}
+\usepackage[magyar]{babel}
+\usepackage[inline]{enumitem}
+    
+\begin{document}
+\begin{itemize}
+\item A
+\item[+] B
+\item[$\star$] C
+\end{itemize}
+
+\begin{enumerate}
+\item a
+\item b
+\begin{enumerate}
+\renewcommand{\labelenumii}{\theenumii.} %theenumi theenumii thenumiii theenumiv
+\item b.1 (\theenumii) helyett a.
+\begin{enumerate}
+\renewcommand{\labelenumiii}{\Roman{enumiii}.} %\arabic{<szamlalo>, \arabic*, \roman, \Roman, \alph, \Alph
+\item harmadik szint
+\begin{enumerate}
+\item negyedik szint
+\end{enumerate}
+\end{enumerate}
+\item b.2 
+\end{enumerate}
+\setcounter{enumi}{4} %4+1 lesz
+\item[\textbullet] c
+\item d
+\end{enumerate}
+
+\begin{description}[align=left,style=standard,font=\texttt]%[style=standard] %\ttfamily
+\item[címke] leírás...
+\item[valami hosszú] még leírás...
+\item[abetű] még még leírás...
+\item még még még leírás
+\end{description}
+
+\begin{enumerate}[label=\Alph*,ref=\Alph*,noitemsep]
+\item\label{elso} a
+\item b
+\begin{enumerate}[label*=.\arabic*] %ref=\arabic ha nem akarjuk, hogy duplán hivatkozzon rá
+\item\label{masodik} d
+\item e
+\end{enumerate}
+\item c
+\end{enumerate}
+
+Hivatkozhatunk \ref{elso}-re és \ref{masodik}-ra
+\begin{enumerate}[resume*,nosep]%resume, start=4
+\item folytatjuk
+\item az előzőt
+\end{enumerate}
+
+Ez egy
+\begin{itemize*}
+\item szovegkozi
+\item lista
+\item lesz
+\end{itemize*}
+és írhatunk tovább vissza
+
+\end{document}
