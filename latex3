@@ -1,0 +1,39 @@
+https://stackoverflow.com/questions/29777696/fastest-way-to-sort-an-array-of-objects-in-java
+
+\documentclass[12pt]{article}%oneside twoside
+\usepackage{t1enc}
+\usepackage{lipsum}
+%\usepackage[margin=1.5cm]{geometry}
+%\usepackage[scale={0.5,0.8}]{geometry}%első vízszintesen első függölegesen
+\usepackage{geometry}
+%\geometry{scale={0.5,0.8}}
+%\geometry{text={18cm,25cm},centering}
+\geometry{left=3cm,right=3cm,bindingoffset=1cm,top=3cm,bottom=5cm,footskip=2cm}
+\usepackage[magyar]{babel}
+
+\title{Cím}
+\author{szerző}
+%fejléc lábléc
+\usepackage{fancyhdr}
+\renewcommand{\footrulewidth}{0.5pt}
+\fancypagestyle{plain}
+{\fancyhf{}\fancyfoot[LE,RO]
+{\thepage}
+\renewcommand{\headrulewidth}{0pt}}
+\fancyfoot[LE,RO]
+{\nouppercase{\leftmark}}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+
+%\pagestyle{myheadings}
+\markright{Az én \LaTeX\ dokumentumom\hfil 2021}
+
+\begin{document}
+\maketitle
+\thispagestyle{fancy}
+
+\section{Szakasz címe}
+\subsection{Alszakasz címe}
+\lipsum[1-10]
+
+\end{document}
