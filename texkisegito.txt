@@ -1,0 +1,48 @@
+Alapok:
+Eleje:  \begin{document}
+vége: \end{document}
+Ékezet: \^  vagy  \~
+Sortörés: \\
+Komment: % 
+Törhetetlen szóköz: ~ 
+Csoportosítás: { } 
+Matematikai mód: $ 
+Alsó, felső index: ^ és _  (példa:    $a^2$ = a 2 ,    és    $a_{i,j}$ = ai,j )
+Kötőjel: -		gondolatjel: --  		kivonásjel: $ - $ (szóköz nélkül)
+Három pont: \dots 	
+Betűstílusok: \rm roman(alapértelmezett)	\sl slanted  	 \it italic   
+	\bf boldface 	  \tt typewriter
+Félkövér: { \boldit szöveg }    (   vagy \textbf{szöveg}   )
+Igazítás: \centerline (Középre zárt sor)	\leftline (balra})		 \rightline (jobbra)
+Behúzás: \indent 	nincs behúzás: \noindent 		duplabehúzás: \indent\indent
+	egész dokumentumra: \parindent (5pt)
+Margótól való távolság:  \narrower 
+		bekezdés bal ill. jobb oldali távolsága a margótól \leftskip,  \rightskip
+Sortávolság: \baselineskip=<dimen> 
+	 bekezdések közti távolság \parskip
+Méretezés:
+	szöveg szélessége \hsize=<dimen>	 alapértelmezett 6.5 in
+	szöveg magassága \vsize=<dimen> 	alapértelmezett 8.9 in
+	első bekezdés a felső széltől \topskip=<dimen>	
+Oldaltörés:  \eject
+Fejléc, lábléc: \headline{...}  \footline{...} 	esetleg( \leftheadline, \rightheadline, ...)
+Lábjegyzet \footnote  <jel>   {...}
+Elválasztás:  \- 		pl. Ma\-gyar\-or\-sz\'ag
+
+
+
+
+Magyar nyelvhez:
+\usepackage[magyar]{babel}
+ \usepackage[utf8]{fontenc} vagy \usepackage{t1enc}
+Betűstílusok: \textit{italic} italic
+	 \textbf{bold} bold
+	 \texttt{typewriter} typewriter
+\textsl{slanted} slanted
+		 \textrm{roman} roman
+		\textsf{sans serif} sans serif
+		\textsc{small caps} small caps
+	\textnormal{normál} normál
+	\MakeUppercase{Nagybet¶sre!}, NAGYBETSRE!
+	\MakeLowercase{KISBETSRE!} kisbet¶sre!
+	 \textit{\textbf{egymásba ágyazva}} egymásba ágyazva
